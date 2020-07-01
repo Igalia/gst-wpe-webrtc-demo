@@ -3,6 +3,7 @@ name = "embedded-gst-wpe-demo"
 version = "0.1.0"
 authors = ["Philippe Normand <philn@igalia.com>"]
 edition = "2018"
+license = "MIT"
 
 [dependencies]
 anyhow = "1.0.31"
