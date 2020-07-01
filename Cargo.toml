@@ -1,0 +1,29 @@
+[package]
+name = "embedded-gst-wpe-demo"
+version = "0.1.0"
+authors = ["Philippe Normand <philn@igalia.com>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0.31"
+async-tungstenite = { version = "0.7", features = ["gio-runtime"] }
+base64 = "0.11"
+futures = "0.3"
+gio = "0.8"
+glib = "0.9"
+gst = { package = "gstreamer", version = "0.15", features = ["v1_10"] }
+gst-sdp = { package = "gstreamer-sdp", version = "0.15", features = ["v1_14"] }
+gst-webrtc = { package = "gstreamer-webrtc", version = "0.15" }
+http = "0.2"
+num = "0.2"
+rand = "0.7"
+serde = "1"
+serde_any = "0.5"
+serde_derive = "1"
+serde_json = "1.0.53"
+strfmt = "0.1.6"
+url = "2"
+structopt = { version = "0.3", default-features = false }
+env_logger = "0.7.1"
+log = "0.4.8"
+

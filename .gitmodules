@@ -1,0 +1,4 @@
+[submodule "wpe-graphics-overlays"]
+	path = wpe-graphics-overlays
+	url = https://github.com/Igalia/wpe-graphics-overlays.git
+	branch = igalia

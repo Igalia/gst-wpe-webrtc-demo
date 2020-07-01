@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+        <script src="/webrtc.js"></script>
+        <style type="text/css">
+        body {
+            background-image: url('igalia-bg.png');
+            background-repeat: no-repeat;
+
+            background-size: 80vh;
+        }
+        </style>
+    </head>
+    <body onload="start()">
+        <video id="remoteVideo" muted autoplay></video>
+        <span id="message"/>
+    </body>
+</html>
